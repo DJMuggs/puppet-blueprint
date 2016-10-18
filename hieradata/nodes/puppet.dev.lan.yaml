@@ -1,0 +1,9 @@
+---
+classes:
+  - puppetdb
+  - puppetdb::master::config
+
+puppetdb::manage_firewall: false
+puppetdb::listen_address: 0.0.0.0
+puppetdb::postgres_version: '9.5'
+#postgresql::server::package_name: 
