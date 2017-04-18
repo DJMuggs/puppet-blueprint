@@ -2,6 +2,7 @@
 classes:
   - puppetdb
   - puppetdb::master::config
+  - roles::puppetmaster
 
 puppetdb::manage_firewall: false
 puppetdb::listen_address: 0.0.0.0
