@@ -9,5 +9,6 @@ mod 'puppetlabs-postgresql'
 mod 'puppetlabs-puppetdb'
 mod 'puppetlabs-stdlib'
 
+mod 'herculesteam-augeasproviders_core'
 mod 'herculesteam-augeasproviders_sysctl'
 mod 'puppet-puppetboard'
