@@ -16,6 +16,6 @@ puppetdb::postgres_version: '9.6'
 puppetboard::manage_git: latest
 puppetboard::manage_virtualenv: latest
 
-puppetboard::apache::vhost::vhostname: puppet.local.domain
+puppetboard::apache::vhost::vhostname: pboard.local.domain
 puppetboard::apache::vhost::port: 80
 
