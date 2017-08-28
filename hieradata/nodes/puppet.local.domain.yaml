@@ -23,6 +23,7 @@ puppetboard::puppetdb_ssl_verify: "%{hiera('puppetmaster_ssl_dir')}/certs/ca.pem
 puppetboard::puppetdb_cert: "%{hiera('puppetmaster_ssl_dir')}/certs/%{hiera('puppetmaster')}.pem"
 
 puppetboard::enable_catalog: true
+puppetboard::unresponsive_hours: 12
 
 puppetboard::apache::vhost::vhostname: pboard.local.domain
 puppetboard::apache::vhost::port: 80
