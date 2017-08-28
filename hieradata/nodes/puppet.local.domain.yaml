@@ -5,6 +5,7 @@ classes:
   - apache
   - apache::mod::wsgi
   - puppetboard
+  - puppetboard::apache::conf
   - roles::puppetmaster
 
 puppetdb::manage_firewall: false
