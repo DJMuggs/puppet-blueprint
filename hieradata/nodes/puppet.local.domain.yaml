@@ -2,9 +2,16 @@
 classes:
   - puppetdb
   - puppetdb::master::config
+# - apache
+# - apache::mod::wsgi
+  - puppetboard
   - roles::puppetmaster
 
 puppetdb::manage_firewall: false
 puppetdb::listen_address: 0.0.0.0
 puppetdb::postgres_version: '9.5'
 #postgresql::server::package_name: 
+
+#apache::vhostname: puppet.local.domain
+#apache::port: 80
+
