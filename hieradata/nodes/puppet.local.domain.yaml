@@ -12,6 +12,9 @@ puppetdb::listen_address: 0.0.0.0
 puppetdb::postgres_version: '9.5'
 #postgresql::server::package_name: 
 
+puppetboard::manage_git: latest
+puppetboard::manage_virtualenv: latest
+
 #apache::vhostname: puppet.local.domain
 #apache::port: 80
 
