@@ -8,6 +8,7 @@ mod 'puppetlabs-inifile'
 mod 'puppetlabs-postgresql'
 mod 'puppetlabs-puppetdb'
 mod 'puppetlabs-stdlib'
+mod 'puppetlabs-vcsrepo'
 
 mod 'herculesteam-augeasproviders_core'
 mod 'herculesteam-augeasproviders_sysctl'
