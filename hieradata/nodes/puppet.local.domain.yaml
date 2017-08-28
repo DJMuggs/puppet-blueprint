@@ -24,6 +24,7 @@ puppetboard::puppetdb_cert: "%{hiera('puppetmaster_ssl_dir')}/certs/%{hiera('pup
 
 puppetboard::enable_catalog: true
 puppetboard::unresponsive_hours: 12
+puppetboard::loglevel: debug
 
 puppetboard::apache::vhost::vhostname: pboard.local.domain
 puppetboard::apache::vhost::port: 80
