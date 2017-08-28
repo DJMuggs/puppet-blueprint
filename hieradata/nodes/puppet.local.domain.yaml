@@ -2,8 +2,8 @@
 classes:
   - puppetdb
   - puppetdb::master::config
-# - apache
-# - apache::mod::wsgi
+  - apache
+  - apache::mod::wsgi
   - puppetboard
   - roles::puppetmaster
 
@@ -15,6 +15,6 @@ puppetdb::postgres_version: '9.6'
 puppetboard::manage_git: latest
 puppetboard::manage_virtualenv: latest
 
-#apache::vhostname: puppet.local.domain
-#apache::port: 80
+puppetboard::apache::vhost::vhostname: puppet.local.domain
+puppetboard::apache::vhost::port: 80
 
