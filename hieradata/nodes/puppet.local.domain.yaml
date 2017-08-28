@@ -17,7 +17,7 @@ puppetboard::manage_git: latest
 puppetboard::manage_virtualenv: latest
 
 puppetboard::puppetdb_host: 'puppet.local.domain'
-puppetboard::puppetdb_port: '8081'
+puppetboard::puppetdb_port: '8080'
 puppetboard::puppetdb_key: "%{hiera('puppetmaster_ssl_dir')}/private_keys/%{hiera('puppetmaster')}.pem"
 puppetboard::puppetdb_ssl_verify: "%{hiera('puppetmaster_ssl_dir')}/certs/ca.pem"
 puppetboard::puppetdb_cert: "%{hiera('puppetmaster_ssl_dir')}/certs/%{hiera('puppetmaster')}.pem"
