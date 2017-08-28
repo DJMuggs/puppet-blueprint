@@ -16,6 +16,12 @@ puppetdb::postgres_version: '9.6'
 puppetboard::manage_git: latest
 puppetboard::manage_virtualenv: latest
 
+puppetboard::puppetdb_host: 'puppet.local.domain'
+puppetboard::puppetdb_port: '8082'
+puppetboard::puppetdb_key: "%{hiera('puppetmaster_ssl_dir')}/private_keys/%{hiera('puppetmaster')}.pem"
+puppetboard::puppetdb_ssl_verify: "%{hiera('puppetmaster_ssl_dir')}/certs/ca.pem"
+puppetboard::puppetdb_cert: "%{hiera('puppetmaster_ssl_dir')}/certs/%{hiera('puppetmaster')}.pem"
+
 puppetboard::apache::vhost::vhostname: pboard.local.domain
 puppetboard::apache::vhost::port: 80
 
