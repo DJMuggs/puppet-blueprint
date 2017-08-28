@@ -5,8 +5,10 @@ defaults:
   data_hash: yaml_data
 :hierarchy:
   - name: "Node data"
-    path: "nodes/%{::trusted.certname}"
+    path: "nodes/%{::trusted.certname}.yaml"
+
   - name: "FQDN data"
-    path: "nodes/%{::fqdn}"
+    path: "nodes/%{::fqdn}.yaml"
+
   - name: "Common"
     path: "common.yaml"
