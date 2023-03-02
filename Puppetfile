@@ -10,4 +10,5 @@ mod 'puppetlabs-puppetdb'
 mod 'puppetlabs-stdlib'
 mod 'puppetlabs-vcsrepo'
 
+mod 'puppet-python'
 mod 'puppet-puppetboard'
