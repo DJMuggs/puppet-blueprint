@@ -1,4 +1,4 @@
 ---
 
-puppetmaster: puppet.local.domain
-puppetmaster_ssl_dir: '/etv/puppetlabs/puppet/ssl'
+puppetmaster: puppet-master.local.lan
+puppetmaster_ssl_dir: '/etc/puppetlabs/puppet/ssl'
