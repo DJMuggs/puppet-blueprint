@@ -3,7 +3,7 @@ classes:
   - puppetdb
   - puppetdb::master::config
   - apache
-  - apache::mod::wsgi
+  #- apache::mod::wsgi
   - puppetboard
   - puppetboard::apache::conf
   - roles::puppetmaster
