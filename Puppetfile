@@ -10,7 +10,5 @@ mod 'puppetlabs-puppetdb'
 mod 'puppetlabs-stdlib'
 mod 'puppetlabs-vcsrepo'
 
-mod 'herculesteam-augeasproviders', '2.4.1'
-mod 'herculesteam-augeasproviders_sysctl', '2.6.2'
 mod 'puppet-puppetboard'
 mod 'puppet-python', '2.2.2'
