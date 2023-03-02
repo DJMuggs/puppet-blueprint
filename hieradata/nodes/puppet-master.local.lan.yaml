@@ -4,8 +4,7 @@ classes:
   - puppetdb::master::config
   - apache
   #- apache::mod::wsgi
-  - puppetboard
-  - puppetboard::apache::conf
+  - puppetlabs-puppet_operational_dashboards
   - roles::puppetmaster
 
 puppetdb::manage_firewall: false
