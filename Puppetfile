@@ -10,5 +10,4 @@ mod 'puppetlabs-puppetdb'
 mod 'puppetlabs-stdlib'
 mod 'puppetlabs-vcsrepo'
 
-mod 'puppet-python'
-mod 'puppet-puppetboard'
+mod 'puppetlabs-puppet_operational_dashboards', '1.11.0'
