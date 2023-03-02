@@ -10,7 +10,7 @@ classes:
 
 puppetdb::manage_firewall: false
 puppetdb::listen_address: 0.0.0.0
-puppetdb::postgres_version: '15.2'
+puppetdb::postgres_version: '9.6'
 #postgresql::server::package_name: 
 
 puppetboard::manage_git: true
